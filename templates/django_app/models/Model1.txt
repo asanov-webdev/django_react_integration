@@ -1,0 +1,4 @@
+class Model1(models.Model):
+    superName = models.CharField(max_length=100)
+    superDescription = models.TextField()
+    superValue = models.IntegerField(default=0)

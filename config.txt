@@ -1,0 +1,11 @@
+create_django_app=1
+create_react_app=1
+django_app_name=backend
+react_app_name=frontend
+django_app_path=.
+react_app_path=.
+django_templates_path=./templates/django_app/
+react_templates_path=./templates/react_app/
+should_create_example_model=1
+should_start_django_app=1
+should_start_react_app=1

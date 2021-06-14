@@ -1,0 +1,5 @@
+from .models import {{ modelName }}
+from .serializers import {{ modelName }}Serializer
+class {{ modelName }}ListCreate(generics.ListCreateAPIView):
+    queryset = {{ modelName }}.objects.all()
+    serializer_class = {{ modelName }}Serializer

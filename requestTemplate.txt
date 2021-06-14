@@ -1,0 +1,5 @@
+export async function {{ functionName }}() {
+  const data = await axios.{{ requestType }}("{{ url }}").then((response) => response.data);
+
+  return data;
+}
